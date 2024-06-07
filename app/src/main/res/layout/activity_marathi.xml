@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarathiActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+       android:layout_marginLeft="100dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/marathi" />
+    <LinearLayout
+        android:id="@+id/item1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 1 Icon"
+            android:src="@drawable/poli" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Puran Poli"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item1Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 70"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="220dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 2 Icon"
+            android:src="@drawable/pav" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Misal Pav"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item2Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 50"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 3 Icon"
+            android:src="@drawable/sabu" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sabudana Khichdi"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item4Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 50"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item4Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item5Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="420dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 4 Icon"
+            android:src="@drawable/poha" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Poha"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item5Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 20"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item5Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+             />
+
+    </LinearLayout>
+<Button
+    android:id="@+id/placeorderbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="550dp"
+    android:layout_marginLeft="120dp"
+    android:text="Place Order"
+   />
+
+
+
+</RelativeLayout>

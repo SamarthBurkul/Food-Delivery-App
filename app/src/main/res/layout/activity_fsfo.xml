@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FsfoActivity">
+
+    <ImageView
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="true"
+        android:onClick="onImageButtonClick"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fsfo" />
+    <LinearLayout
+        android:id="@+id/item1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 1 Icon"
+            android:src="@drawable/one" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Samosa Chaat"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item1Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 30"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:onClick="onButtonClick" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="220dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 2 Icon"
+            android:src="@drawable/two" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vada Pav"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item2Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 10"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:onClick="onButtonClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 3 Icon"
+            android:src="@drawable/three" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pav Bhaji"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item4Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 50"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item4Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:onClick="onButtonClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item5Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="420dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Item 4 Icon"
+            android:src="@drawable/four" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dahi Puri"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/item5Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 20"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/item5Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@android:color/white"
+            android:background="@color/black"
+            android:onClick="onButtonClick" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/placeorderbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="120dp"
+        android:text="Place Order"
+        android:onClick="onPlaceOrder"/>
+
+
+
+</RelativeLayout>

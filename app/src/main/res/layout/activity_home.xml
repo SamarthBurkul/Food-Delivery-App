@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/splashImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/home_logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="7dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="165dp"
+        android:hint="Search" />
+
+
+
+    <!-- GridLayout for ImageButtons -->
+    <GridLayout
+        android:id="@+id/imageButtonsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashImageView"
+        android:layout_marginTop="70dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <!-- ImageButton 1 -->
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="181dp"
+            android:layout_height="123dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/marathi" />
+
+        <!-- ImageButton 2 -->
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="174dp"
+            android:layout_height="124dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/thangabali" />
+
+        <!-- ImageButton 3 -->
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="183dp"
+            android:layout_height="109dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/punjab" />
+
+        <!-- ImageButton 4 -->
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="174dp"
+            android:layout_height="112dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/conti" />
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fsfo" />
+    <!-- Place Order Button -->
+
+   
+</RelativeLayout>
